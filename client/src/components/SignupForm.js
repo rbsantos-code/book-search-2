@@ -40,7 +40,7 @@ const SignupForm = () => {
       // }
 
       // const { token, user } = await response.json();
-
+      
       const { data } = await addUser({
         variables: { ...userFormData }
       });
